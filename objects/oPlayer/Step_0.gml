@@ -1,0 +1,2 @@
+actAs(oControllerable);
+actAs(oNotPenetrate);
