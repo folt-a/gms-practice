@@ -33,7 +33,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "8",
+            "value": "9",
             "varName": "moveSpeed",
             "varType": 0
         },
@@ -47,36 +47,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "13",
-            "varName": "dashSpeed",
-            "varType": 0
-        },
-        {
-            "id": "4814d716-692a-46e5-ac7f-454c92b21acd",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "4",
-            "varName": "dashDiagonalAdjust",
-            "varType": 0
-        },
-        {
-            "id": "643cd591-1741-4506-916c-6771a08186a4",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "4",
-            "varName": "moveDiagonalAdjust",
+            "value": "1.5",
+            "varName": "dashSpeedRate",
             "varType": 0
         },
         {

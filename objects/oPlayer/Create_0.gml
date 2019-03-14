@@ -1,1 +1,1 @@
-/// @description Insert description here
+actAs(oControllerable);
