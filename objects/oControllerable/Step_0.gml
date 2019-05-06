@@ -12,7 +12,8 @@ vInput = key_down - key_up;
 
 // 向いている方向 
 if (hInput != 0 || vInput != 0) {
-  dir = point_direction(0, 0, hInput, vInput)
+  dir = point_direction(0, 0, hInput, vInput);
+  dir = round(dir);
   hsp = lengthdir_x(moveSpeed, dir);
   vsp = lengthdir_y(moveSpeed, dir);
 
@@ -64,7 +65,7 @@ if (hInput != 0 || vInput != 0) {
     case 135:
       sprite_index = sPlayerUpLeft;
       break;
-  }
+  }	
 
   var bbox_side;
   tilemap = layer_tilemap_get_id(m_collision);
