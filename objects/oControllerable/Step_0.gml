@@ -67,7 +67,7 @@ if (hInput != 0 || vInput != 0) {
   }
 
   var bbox_side;
-  tilemap = layer_tilemap_get_id("Collision");
+  tilemap = layer_tilemap_get_id(m_collision);
 
   //よこ タイルマップ判定
   if (hsp > 0) bbox_side = bbox_right;
@@ -75,8 +75,8 @@ if (hInput != 0 || vInput != 0) {
   //1フレーム後スプライトとタイルが重なっているかどうか判定
   if (tilemap_get_at_pixel(tilemap, bbox_side + hsp, bbox_top) != 0) ||
     (tilemap_get_at_pixel(tilemap, bbox_side + hsp, bbox_bottom) != 0) {
-      if (hsp > 0) x = x - (x mod TileX) + (TileX - 1) - (bbox_right - x);
-      else x = x - (x mod TileX) - (bbox_left - x);
+      if (hsp > 0) x = x - (x mod m_tileX) + (m_tileX - 1) - (bbox_right - x);
+      else x = x - (x mod m_tileX) - (bbox_left - x);
       hsp = 0;
     }
   x += hsp;
@@ -87,8 +87,8 @@ if (hInput != 0 || vInput != 0) {
   //1フレーム後スプライトとタイルが重なっているかどうか判定
   if (tilemap_get_at_pixel(tilemap, bbox_left, bbox_side + vsp) != 0) ||
     (tilemap_get_at_pixel(tilemap, bbox_right, bbox_side + vsp) != 0) {
-      if (vsp > 0) y = y - (y mod TileY) + (TileY - 1) - (bbox_bottom - y);
-      else y = y - (y mod TileY) - (bbox_top - y);
+      if (vsp > 0) y = y - (y mod m_tileY) + (m_tileY - 1) - (bbox_bottom - y);
+      else y = y - (y mod m_tileY) - (bbox_top - y);
       vsp = 0;
     }
   y += vsp;
