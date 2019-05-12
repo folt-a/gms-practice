@@ -1,6 +1,6 @@
 /// @description icon, effect
 
-draw_sprite(s)
+draw_sprite(sItem,1,x,y)
 
 if (isSelected) {
 	draw_flush();
