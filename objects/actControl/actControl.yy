@@ -2,7 +2,7 @@
     "id": "e2508f3e-c942-4527-bd82-49ad287578ba",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oControllerable",
+    "name": "actControl",
     "eventList": [
         {
             "id": "c8277e72-d138-4d01-a8fc-b5600d893241",

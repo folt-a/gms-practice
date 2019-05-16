@@ -1,1 +1,1 @@
-actAs(oControllerable);
+actAs(actControl);

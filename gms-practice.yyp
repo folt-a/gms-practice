@@ -215,14 +215,6 @@
             }
         },
         {
-            "Key": "6d786acb-e63f-4630-921f-94bc88696abf",
-            "Value": {
-                "id": "5ec12c13-9499-4c4b-a137-f908ec2c3ac7",
-                "resourcePath": "objects\/oNotPenetrate\/oNotPenetrate.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "731b4798-c1bd-40f9-b6c4-391ec9019b7c",
             "Value": {
                 "id": "6fa285a6-8133-4459-ade7-6ae8b781f0da",
@@ -236,6 +228,14 @@
                 "id": "d97ca622-e389-4dc5-8b28-a5ac72d94700",
                 "resourcePath": "objects\/oGrobal\/oGrobal.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "82418e55-4cea-4fac-8c0f-a51c6607bbdf",
+            "Value": {
+                "id": "e702d4c6-5fdd-4a78-a8a4-328d5b139aea",
+                "resourcePath": "sprites\\sItem1\\sItem1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "acf3cf5b-ad55-4a72-ba22-dbe9aa32bcf1",
+            "Value": {
+                "id": "f20ba3a7-c5ba-473e-afad-dd1b65e9868b",
+                "resourcePath": "timelines\\timeline0\\timeline0.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "afb90521-c9a3-44d9-a402-e1a4eb5b027e",
             "Value": {
                 "id": "59f2a614-e73b-4cc2-8736-7bf6ddc267bd",
@@ -383,10 +391,18 @@
             }
         },
         {
+            "Key": "da82d44b-e3cc-4a0f-922f-4c42a67a717e",
+            "Value": {
+                "id": "1ba9d51f-7361-415a-8dfe-cdea21717345",
+                "resourcePath": "paths\\pCircle\\pCircle.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "e2508f3e-c942-4527-bd82-49ad287578ba",
             "Value": {
                 "id": "e0608cb3-896e-4c19-853e-2aaac65bbd9f",
-                "resourcePath": "objects\/oControllerable\/oControllerable.yy",
+                "resourcePath": "objects\\actControl\\actControl.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -415,18 +431,10 @@
             }
         },
         {
-            "Key": "fbe6a2ed-804f-42cb-a83d-113d6c0cab57",
-            "Value": {
-                "id": "ada8c7dd-c106-4a22-885e-b78dd5beea84",
-                "resourcePath": "objects\/opMoveable\/opMoveable.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "ff187b73-167c-4ea0-9cd2-b405728fbf33",
             "Value": {
                 "id": "7dc4393d-a606-44c4-8b39-27c55f4c6e26",
-                "resourcePath": "objects\\oMenu\\oMenu.yy",
+                "resourcePath": "objects\\actMenu\\actMenu.yy",
                 "resourceType": "GMObject"
             }
         }

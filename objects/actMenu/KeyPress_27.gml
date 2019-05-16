@@ -20,14 +20,26 @@ if (isGamePaused == false) {
 
 	// 全てのインスタンスを一時停止にする
 	instance_deactivate_all(true);
+	
+	// メニューを出す
+	arrayMenuItem= array_create(itemCount)
+	
+	for	(var i = 0; i < itemCount; ++i){
+		var positionOnPath = 1 / itemCount * i
+		var itemX = path_get_x(pCircle,positionOnPath) / 100 * 64;
+		var itemY = path_get_y(pCircle,positionOnPath) / 100 * 64;
+		arrayMenuItem[i] = instance_create_layer(player.x + itemX,player.y + itemY,"UI",opMenuItem);		
+	}
+	
+	arrayMenuItem[0].sprite_index = sItem1;
+	
 	isGamePaused = true;
-
 
 	// 背景のアニメーションのスピードを０にする？
 	//layer_vspeed("background", 0);
 } else {
 	// 全てのインスタンスを一時停止を解除する
-	// 内部プロパティはリセットされず、以前の状態へ戻るので安心してよい。
+	// 内部プロパティはリセットされず、以前の状態へ戻る。
 	instance_activate_all();
 	isGamePaused = false;
 

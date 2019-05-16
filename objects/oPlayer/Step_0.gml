@@ -1,2 +1,1 @@
-actAs(oControllerable);
-actAs(oNotPenetrate);
+actAs(actControl);
